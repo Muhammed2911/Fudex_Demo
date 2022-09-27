@@ -32,8 +32,6 @@ export default {
     "~/assets/vendors/font-awesome/css/all.min.css",
     "~/assets/vendors/slick/slick.min.css",
     "~/assets/vendors/slick/slick-theme.min.css",
-    "~/assets/vendors/pretty-checkbox.min.css",
-    "~/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css",
   ],
   loading: "~/components/Spinner.vue",
   // loading: true,
@@ -111,43 +109,7 @@ export default {
 
     "@nuxtjs/firebase",
   ],
-  firebase: {
-    config: {
-      apiKey: "AIzaSyDsptHTRH45Y-btAGjfuRjQDssweHyMU3I",
-      authDomain: "mukyfy-951e0.firebaseapp.com",
-      projectId: "mukyfy-951e0",
-      storageBucket: "mukyfy-951e0.appspot.com",
-      messagingSenderId: "548835319766",
-      appId: "1:548835319766:web:00670755cb06a515b00e77",
-      measurementId: "G-HRTG9YRZM6",
-    },
-    services: {
-      messaging: {
-        createServiceWorker: true,
-        fcmPublicVapidKey:
-          "BPDoyCPNtyYg675rD1YHIE5_WLiidijXfeH_cOj2CfMbHzaIZJXgUbIoWKCS5mqP4HxDPsxEqGLJO3wGOMax2Aw",
-      },
-    },
-  },
-  serverMiddleware: {
-    "/_ipx": "~/server/middleware/ipx.js",
-  },
-  // https://openbase.com/js/vue-toasted/documentation
-  toast: {
-    position: "top-center",
-    duration: 3000,
-    theme: "toasted-primary", // ['toasted-primary', 'outline', 'bubble']
-    register: [
-      // Register custom toasts
-      {
-        name: "my-error",
-        message: "Oops...Something went wrong",
-        options: {
-          type: "error",
-        },
-      },
-    ],
-  },
+
   router: {
     middleware: "routerMiddleware",
   },
@@ -158,8 +120,5 @@ export default {
     },
     extractCSS: true,
     optimizeCSS: true,
-    // filenames: {
-    //   css: `${BUILDID}.[name].css`,
-    // },
   },
 };
