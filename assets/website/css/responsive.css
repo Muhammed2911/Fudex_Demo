@@ -1,0 +1,60 @@
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 12px; }
+  header .navbar-brand {
+    margin-top: 0;
+    margin-bottom: 5px; }
+    header .navbar-brand img {
+      max-height: 40px; }
+  header .navbar li a {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  .bef-h .input-group {
+    max-width: rem(200px); }
+  #banner-carousel .caro-img {
+    height: 300px; }
+  .slick-dots {
+    bottom: 10px; }
+  .brand {
+    margin-bottom: 10px; }
+  .product .product-img {
+    height: auto; }
+  .foot-logo {
+    text-align: center; }
+    .foot-logo img {
+      max-width: 35%;
+      margin: auto; }
+  footer .text-right {
+    text-align: right !important; }
+  footer h4 {
+    margin-top: 15px; }
+  .table {
+    width: auto; }
+    .table td {
+      min-width: 100px; }
+  .card-item .pro-img {
+    margin-bottom: 15px; }
+  .contact-form {
+    margin-bottom: rem(30px); }
+  .ag-c {
+    padding-right: rem(15px); }
+  .rate.lg span {
+    display: block; }
+  .share-pro img {
+    max-width: 15px; }
+  .filter .select-g {
+    margin-bottom: rem(10px); }
+  .filter .padd-r-0 {
+    padding-right: rem(15px); } }
+
+@media only screen and (max-width: 600px) {
+  #banner-carousel .caro-img {
+    height: 150px; } }
+
+@media only screen and (max-width: 992px) {
+  .increament-input button {
+    padding: 0.5rem 3px; } }
+
+@media (max-width: 1200px) and (min-width: 769px) {
+  html {
+    font-size: 14px; } }

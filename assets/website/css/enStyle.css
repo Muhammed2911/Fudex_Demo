@@ -1,0 +1,128 @@
+/* div[dir="ltr"] {
+  direction: ltr;
+} */
+
+div[dir="ltr"] .bef-h .user-mnu {
+  float: right; }
+
+div[dir="ltr"] .bef-h .input-group {
+  float: right; }
+
+div[dir="ltr"] .bef-h .user-mnu li {
+  margin-right: 0;
+  margin-left: 10px; }
+
+div[dir="ltr"] header .dropdown-menu:not(.datepicker) {
+  right: 0 !important;
+  left: auto !important;
+  transform: none !important;
+  top: 100% !important;
+}
+
+div[dir="ltr"] header .dropdown-menu .dropdown-items li i {
+  float: right;
+  transform: rotate(180deg); }
+
+div[dir="ltr"] .sub-head a {
+  float: right; }
+
+div[dir="ltr"] .profile-pills .nav-pills a i {
+  float: right;
+  transform: rotate(180deg); }
+
+div[dir="ltr"] ul.map li:not(:last-child) {
+  padding-right: 1.25rem;
+  padding-left: 0; }
+
+div[dir="ltr"] ul.map li:not(:last-child):after {
+  right: 0.625rem;
+  left: auto; }
+
+div[dir="ltr"] .contact-us .social-footer li {
+  padding-left: 0;
+  padding-right: 10px; }
+
+div[dir="ltr"] .login-group img {
+  margin-left: 2px;
+  margin-right: 0; }
+
+div[dir="ltr"] .pretty .state label::after,
+div[dir="ltr"] .pretty .state label::before {
+  right: auto;
+  left: 0px; }
+
+div[dir="ltr"] .pro-like span {
+  margin-left: 5px;
+  margin-right: 0; }
+
+div[dir="ltr"] .rate i {
+  margin-right: 0.3125rem;
+  margin-left: 0; }
+
+div[dir="ltr"] .rate-desc .inline-d p {
+  margin-right: 3.75rem;
+  margin-left: 0; }
+
+div[dir="ltr"] .inline-d img {
+  margin-right: 10px;
+  margin-left: 0; }
+
+div[dir="ltr"] .rate.lg span:first-child {
+  margin-right: 10px;
+  margin-left: 0; }
+
+div[dir="ltr"] .button img {
+  margin-right: 0.3125rem;
+  margin-left: 0; }
+
+div[dir="ltr"] .rSlider .slide {
+  right: auto;
+  left: 0; }
+
+  div[dir="ltr"] .inline-d a:last-child {
+  margin-left: 5px;
+  margin-right: 0; }
+
+  div[dir="ltr"] .price span:last-child {
+  margin-left: 5px;
+  margin-right: 0; }
+
+  div[dir="ltr"] .share-pro li {
+  margin-right: 0;
+  margin-left: 0.625rem; }
+
+  div[dir="ltr"] .social-footer li {
+  padding-right: 0;
+  padding-left: 1.875rem; }
+  div[dir="ltr"] .rateyo, .rateyo * {
+  direction: ltr; }
+  div[dir="ltr"] .ul-pagination img{
+  transform: rotate(180deg);
+}
+
+div[dir="ltr"] .tool-bar li:first-child::before {
+  left: 100px;
+  right: auto;
+}
+div[dir="ltr"] .tool-bar li:last-child::before {
+  right: 100px;
+  left: auto;
+}
+
+div[dir="ltr"] .m-det span:last-child{float: right;}
+div[dir="ltr"] header .navbar-nav .dropdown-menu {
+  left: 0 !important;
+  right: auto !important;
+}
+div[dir="ltr"] .ul-pagination i{
+  transform: rotateZ(180deg);
+}
+
+div[dir="ltr"] .profile table .input-group a{
+  margin-left: 10px;
+  margin-right: 0;
+}
+div[dir="ltr"] .special{
+  right: auto;
+  left: 10px;
+}
