@@ -110,6 +110,25 @@ export default {
     "@nuxtjs/firebase",
   ],
 
+  firebase: {
+    config: {
+      apiKey: "AIzaSyDsptHTRH45Y-btAGjfuRjQDssweHyMU3I",
+      authDomain: "mukyfy-951e0.firebaseapp.com",
+      projectId: "mukyfy-951e0",
+      storageBucket: "mukyfy-951e0.appspot.com",
+      messagingSenderId: "548835319766",
+      appId: "1:548835319766:web:00670755cb06a515b00e77",
+      measurementId: "G-HRTG9YRZM6",
+    },
+    services: {
+      messaging: {
+        createServiceWorker: true,
+        fcmPublicVapidKey:
+          "BPDoyCPNtyYg675rD1YHIE5_WLiidijXfeH_cOj2CfMbHzaIZJXgUbIoWKCS5mqP4HxDPsxEqGLJO3wGOMax2Aw",
+      },
+    },
+  },
+
   router: {
     middleware: "routerMiddleware",
   },
